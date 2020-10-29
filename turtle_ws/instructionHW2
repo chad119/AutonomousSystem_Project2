@@ -1,0 +1,19 @@
+Ching-hung Chiang HW2 In struction
+***************************************
+Problem1:
+1. Map1.pgm is the result
+---------------------------------------
+Problem2:
+Terminal:
+1. >> cd ~/turtle_ws
+2. >> catkin_make
+3. >> cd ~/turtle_ws/devel
+4. >> source setup.bash
+5. >> cd ~/turtle_ws
+6. >> roslaunch turtlebot3_gazebo turtlebot3_stage_4.launch
+(Or you want to try other map)
+7. >> roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=hector
+8. >> rosrun automap build_map_automatic.py 
+9. And you should see the turtlebot move
+10.Wait for while, if the terminal tell you "STOP" and will give you the next instruction.
+(Map2.pgm is the result I run)
